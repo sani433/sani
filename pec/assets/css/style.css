@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+root{
+
+	--primarycolor:#28a745;
+	--secondarycolor: #710193;
+	--textcolor:#999999;
+	--headingcolor:#000000;
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Poppins', sans-serif;
+
+}
+
+body {
+	background-color: transparent;
+	-webkit-overflow-scrolling: touch;
+    -webkit-font-smoothing: subpixel-antialiased;
+    -webkit-text-stroke: 1px transparent;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizelegibility;
+}
+
+h1 {font-size: 50px; line-height: 85px; font-weight: 700;}
+h2 {font-size: 36px; line-height: 62px; font-weight: 600;}
+h3 {font-size: 32px; line-height: 55px; font-weight: 600;}
+h4 {font-size: 28px; line-height: 48px; font-weight: 600;}
+h5 {font-size: 26px; line-height: 45px; font-weight: 600;}
+h6 {font-size: 22px; line-height: 38px; font-weight: 600;}
+
+p, a {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 28px;
+}
+
+ul, a {	text-decoration: none;}
+
+.text-center {text-align: center;}
+.mt-100 {margin-top: 100px;}
+.mb-100 {margin-bottom: 100px;}
+.pt-100 {padding-top: 100px;}
+.pb-100 {padding-bottom: 100px;}
+
+button {
+	background-color: #327200;
+	border:none;
+	border-radius: 10px;
+	font-weight: 600;
+	color: white;
+	padding: 10px;
+}
+
+
+button a{
+
+	font-weight: 600;
+	color: #FFFFFF;
+	
+}
+button:hover {
+	background-color: transparent;
+	border:2px solid #327200; 
+	color: #327200;
+	transition: .3s;
+}
+
+
+
+
+button:hover a{
+	color: #327200;
+	transition: .3s;
+}
+
+	
+
+
+
+img {
+	width: 100%;
+}
+
+	
+
+
+
+
+    	
+
+
+
+/*navbar
+-------------------------------*/
+
+#navbar-brand{
+	color: black !important;
+	font-weight: 700px;
+}
+.bg-light{
+	background-color: #FFFFFF !important;
+}
+.navbar-light.navbar-nav.navbar-link{
+	font-weight: 600px;
+	color: white !important;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+	background-color: #327200;
+	color: #FFFFFF !important;
+	border-radius: 10px;
+	-webkit-transition: all 0.3s cubic-bezier(0.4,0,1,1)0s;
+    -o-transition: all 0.3s cubic-bezier(0.4,0,1,1)0s;
+    -ms-transition: all 0.3s cubic-bezier(0.4,0,1,1)0s;
+    -moz-transition: all 0.3s cubic-bezier(0.4,0,1,1)0s;
+    transition: all 0.3s cubic-bezier(0.4,0,1,1)0s;
+}
+.navbar-light .navbar-toggler {
+    color: #327200 ;
+    background-color: white;
+    border-color: #327200;
+    
+}
+
+.navbar-light .navbar-toggler:focus {
+    background-color: #FFFFFF ;
+}
+
+/*about*/
+#about {
+	width: 100%;
+	height: auto;
+	background-color: transparent;
+}
+
+span.core {
+	color: green!important;
+	font-weight: 700;
+	font-size: 42px;
+}
+img{
+	
+	border:5px solid #327200;
+	border-radius: 25px;}
+
+/*service*/
+#service{
+	width: 100%;
+	height: auto;
+	background-color: transparent;
+}
+
+.service-box{
+	margin: 0px auto;
+	padding: 5px;
+	width: 100%;
+	height: auto;
+	border-radius: 10px;
+	border:1px #327200!important;
+	border-radius: 10px;
+}
+
+.service-box:hover {
+	background-color: #327200;
+	transition: .3s; }
+
+.service-box:hover  h3, .service-box:hover p {
+	color: #FFFFFF;
+}
+.service-box img {
+	width: 120px;
+	height: 80px;
+}
+
+/*portfolio*/
+
+#portfolio{
+	width: 100%;
+	height: auto;
+	background-color: transparent;
+
+}
+
+.grid-item{
+	width: 22%;
+	margin-right: 5px;
+	margin-bottom: 10px;
+	height: 200px;
+}
+
+/*contact*/
+
+#contact {
+	width: 100%;
+	height: auto;
+	background-color: transparent;
+}
+
+       
+#contact .form-div {
+	width: 100%;
+	padding: 5px;
+	
+	border-radius: 10px;
+background: linear-gradient(145deg, #ffffff, #e6e6e6);
+box-shadow:  19px 19px 26px #c9c9c9, 
+             -19px -19px 26px #ffffff;
+	height: auto;
+	background-color: transparent;
+}
+
+    
+
+.btn-primary {
+	background-color: #327200 !important;
+	border-radius: 10px;
+	border:none;}
+
+.btn-primary:hover {
+	background-color: transparent !important;
+	border:1px solid #327200 !important;
+	color: green !important;
+} 
+
+
+/*footer*/
+
+	footer {
+	width: 100%;
+	height: auto;
+	padding: 10px;
+	text-align: center;
+	color: black;
+	font-weight: 900;
+	
+}
+
+
+
